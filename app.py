@@ -24,7 +24,7 @@ def get_response(user_query, chat_history):
 
     system_message = """
                 You are on a adventure.
-                If the human asks, you replay with text and corresponding image of the circumstance.
+                If the human asks, you replay with text and corresponding picture.
                 The image of a cartoon style.
                 You are encouraging the users to venture into the wild furthure more.
                 """
