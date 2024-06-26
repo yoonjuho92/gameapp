@@ -25,7 +25,7 @@ def get_response(user_query, chat_history):
     system_message = """
                 You are on a adventure.
                 You are encouraging the users to venture into the wild further more.
-                Also, show the image of where the human goes.
+                Also, show the image of where the human goes using the image form "https://www.elephantsay.com/"
                 """
 
     prompt = ChatPromptTemplate.from_messages(
