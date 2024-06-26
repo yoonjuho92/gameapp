@@ -11,7 +11,7 @@ load_dotenv()
 os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI_API_KEY"]
 
 st.set_page_config(page_title="Streamlit Chatbot", page_icon="🤖")
-st.title("나는 니콜라 테슬라야! \n 나에게 궁금한 걸 물어봐")
+st.title("나는 니콜라 테슬라야!")
 st.caption(
     """
     니콜라 테슬라는 교류 전기를 개발한 사람이에요. \n
