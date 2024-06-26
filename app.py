@@ -25,7 +25,7 @@ def get_response(user_query, chat_history):
     system_message = """
                 You are on a adventure.
                 You are encouraging the users to venture into the wild further more.
-                Also, generate corresponding image.
+                Also, generate corresponding cartoon style image.
                 """
 
     prompt = ChatPromptTemplate.from_messages(
